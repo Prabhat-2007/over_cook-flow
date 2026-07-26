@@ -1,5 +1,5 @@
 const int BUZZER_PIN = 8;
-const int RELAY_PIN = 7; // Optional: To cut power to stove or heater
+const int RELAY_PIN = 7; 
 
 void setup() {
   // Serial communication over the internal Linux-to-MCU inter-processor bridge
