@@ -28,6 +28,9 @@ Step 4: Decision & CommunicationOnce the thresholds are evaluated, the script dr
 'C' = Overcook detected (Warning)
 'S' = Everything is Safe
 
+
+STM32 MCU
+
 Listens to Serial: It checks Serial.available().
 Reads the Command:
 Received 'O' (Overflow): Immediately sounds a high-pitched 2000Hz continuous warning tone on the buzzer and switches digital Pin 7 (Relay) LOW to automatically cut power to an electric stove or induction cooktop.
